@@ -29,6 +29,7 @@
 from .ant import Ant
 from .anymal import Anymal
 from .anymal_terrain import AnymalTerrain
+from .anymal_rough_terrain import AnymalRoughTerrain
 from .ball_balance import BallBalance
 from .cartpole import Cartpole 
 from .factory.factory_task_gears import FactoryTaskGears
@@ -94,6 +95,7 @@ isaacgym_task_map = {
     "Ant": Ant,
     "Anymal": Anymal,
     "AnymalTerrain": AnymalTerrain,
+    "AnymalRoughTerrain": AnymalRoughTerrain,
     "BallBalance": BallBalance,
     "Cartpole": Cartpole,
     "FactoryTaskGears": FactoryTaskGears,
